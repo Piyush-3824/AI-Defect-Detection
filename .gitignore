@@ -21,3 +21,7 @@ dataset/
 # Model weights
 *.pt
 *.pth
+
+# Microsoft Office temporary files
+~$*
+*.tmp
