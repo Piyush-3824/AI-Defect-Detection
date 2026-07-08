@@ -1,14 +1,18 @@
 import cv2
 
-image = cv2.imread("sample.jpg")
+# Read the image from disk
+image = cv2.imread("../images/sample.jpg")
 
-if image is None:
-    print("Error: Could not load the image.")
-else:
-    print("Type:", type(image))
-    print("Shape:", image.shape)
-    print("Data Type:", image.dtype)
+# Print information about the image
+print("Type:", type(image))
+print("Shape:", image.shape)
+print("Data Type:", image.dtype)
 
-    cv2.imshow("Sample Image", image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+# Display the image
+cv2.imshow("Sample Image", image)
+
+# Wait until a key is pressed
+cv2.waitKey(0)
+
+# Close all OpenCV windows
+cv2.destroyAllWindows()
