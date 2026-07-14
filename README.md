@@ -1,10 +1,10 @@
 # AI-Powered Defect Detection & Quality Inspection
 
-An Industrial AI project using **Computer Vision** and **Deep Learning** to automatically detect manufacturing defects from images. This project is being built step by step while learning OpenCV, Machine Learning, and Deep Learning concepts.
+An Industrial AI project using **Computer Vision**, **Deep Learning**, and **YOLO** to automatically detect manufacturing defects from images. This project is being built step by step while learning OpenCV, Machine Learning, and Deep Learning from scratch.
 
 ---
 
-## 🚀 Tech Stack
+# 🚀 Tech Stack
 
 - Python
 - OpenCV
@@ -14,9 +14,9 @@ An Industrial AI project using **Computer Vision** and **Deep Learning** to auto
 
 ---
 
-## 📚 Learning Progress
+# 📚 Learning Progress
 
-### ✅ Project Setup
+## ✅ Project Setup
 
 - Project structure created
 - Virtual environment configured
@@ -25,7 +25,7 @@ An Industrial AI project using **Computer Vision** and **Deep Learning** to auto
 
 ---
 
-### 🟢 Lesson 1 - Reading Images
+## 🟢 Lesson 1 - Reading Images
 
 - Reading images using `cv2.imread()`
 - Displaying images using `cv2.imshow()`
@@ -35,7 +35,7 @@ An Industrial AI project using **Computer Vision** and **Deep Learning** to auto
 
 ---
 
-### 🟢 Lesson 2 - Pixels, Cropping & Resizing
+## 🟢 Lesson 2 - Pixels, Cropping & Resizing
 
 - Accessing pixel values
 - Modifying pixel values
@@ -48,7 +48,7 @@ An Industrial AI project using **Computer Vision** and **Deep Learning** to auto
 
 ---
 
-### 🟢 Lesson 3 - Color Spaces
+## 🟢 Lesson 3 - Color Spaces
 
 - BGR Color Space
 - RGB Color Space
@@ -63,23 +63,72 @@ An Industrial AI project using **Computer Vision** and **Deep Learning** to auto
 
 ---
 
-## 🔄 Currently Learning
+## 🟢 Lesson 4 - Image Processing
 
-- OpenCV Image Processing
+### Image Filtering
+
+- Gaussian Blur
+- Median Blur
+- Bilateral Filter
+
+### Thresholding
+
+- Binary Thresholding
+- Understanding Threshold Values
+- Grayscale to Binary Conversion
+
+### Edge Detection
+
+- Canny Edge Detection
+- Lower & Upper Thresholds
+
+### Contours
+
+- Finding Contours using `cv2.findContours()`
+- Contour Retrieval Modes
+- Contour Approximation
+- Drawing Contours using `cv2.drawContours()`
+
+### Morphological Operations
+
+- Structuring Element (Kernel)
+- Erosion
+- Dilation
+- Effect of Kernel Size
+- Effect of Iterations
 
 ---
 
-## 📅 Upcoming Topics
+# 🔄 Currently Learning
 
-- Image Filtering
-- Blurring
-- Thresholding
-- Edge Detection
-- Contours
-- Morphological Operations
+- Image Transformations
+
+---
+
+# 📅 Upcoming Topics
+
+## OpenCV
+
+- Image Transformations
+- Affine Transformations
+- Perspective Transformations
+- Histograms
+- Histogram Equalization
+- Color Segmentation
 - Feature Detection
+- Video Processing
+- Mini Computer Vision Projects
+
+## AI & Deep Learning
+
 - Dataset Preparation
+- PyTorch Fundamentals
+- CNN (Convolutional Neural Networks)
 - YOLO Object Detection
+- Model Training & Evaluation
+
+## Deployment
+
 - FastAPI Backend
 - Frontend Dashboard
 - Industrial AI Defect Detection System
@@ -87,24 +136,33 @@ An Industrial AI project using **Computer Vision** and **Deep Learning** to auto
 
 ---
 
-## 🎯 Final Goal
+# 🎯 Final Goal
 
-Build a complete **Industrial AI Defect Detection System** capable of detecting manufacturing defects in real time using **Computer Vision**, **Deep Learning**, and **YOLO**.
+Build a complete **Industrial AI Defect Detection System** capable of detecting manufacturing defects in real time using:
+
+- Computer Vision
+- Deep Learning
+- YOLO
+- FastAPI
+- Modern Frontend Technologies
+
+The final system will detect manufacturing defects such as scratches, dents, cracks, paint defects, and other surface anomalies from car images.
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 AI_DEFECT_DETECTION/
 │
 ├── images/
-│   └── sample.jpg
+│   └── image.jpg
 │
 ├── lessons/
 │   ├── lesson1.py
 │   ├── lesson2.py
-│   └── lesson3.py
+│   ├── lesson3.py
+│   └── lesson4.py
 │
 ├── README.md
 ├── Working.docx
@@ -114,12 +172,35 @@ AI_DEFECT_DETECTION/
 
 ---
 
-## 📌 Project Status
+# 📌 Project Status
 
-**Current Stage:** Learning OpenCV Fundamentals ✅
+### Current Stage
 
-**Next Milestone:** Image Processing and Feature Extraction
+✅ OpenCV Fundamentals (Lessons 1–4 Completed)
+
+### Next Milestone
+
+➡️ Image Transformations (Lesson 5)
 
 ---
 
-### ⭐ This repository is part of my journey to build a complete Industrial AI Defect Detection System from scratch.
+## 📈 Learning Roadmap
+
+- ✅ Lesson 1 - Reading Images
+- ✅ Lesson 2 - Pixels, Cropping & Resizing
+- ✅ Lesson 3 - Color Spaces
+- ✅ Lesson 4 - Image Processing
+- ⬜ Lesson 5 - Image Transformations
+- ⬜ Lesson 6 - Histograms & Color Segmentation
+- ⬜ Lesson 7 - Feature Detection
+- ⬜ Lesson 8 - Video Processing
+- ⬜ Mini Computer Vision Projects
+- ⬜ PyTorch
+- ⬜ YOLO
+- ⬜ FastAPI
+- ⬜ Frontend
+- ⬜ Final Industrial AI Defect Detection System
+
+---
+
+### ⭐ This repository documents my journey of building a complete Industrial AI Defect Detection System from scratch while learning the concepts behind every step instead of simply using pre-built models.

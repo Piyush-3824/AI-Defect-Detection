@@ -1,15 +1,32 @@
+# ==========================================
+# Lesson 1 - Reading and Displaying Images
+# ==========================================
+
 import cv2
 
-# Read the image from disk
+# ==========================================
+# Topic 1 - Reading an Image
+# ==========================================
+
+# Read the image from disk.
+# cv2.imread() returns a NumPy array.
 image = cv2.imread("../images/sample.jpg")
 
-# Print information about the image
-print("Type:", type(image))
-print("Shape:", image.shape)
-print("Data Type:", image.dtype)
+# Print the complete NumPy array
+print(image)
 
-# Display the image
-cv2.imshow("Sample Image", image)
+# Print the type of the returned object
+print(type(image))
+
+# Print the dimensions of the image
+print(image.shape)
+
+# ==========================================
+# Topic 2 - Displaying an Image
+# ==========================================
+
+# Display the image in a new window
+cv2.imshow("Original Image", image)
 
 # Wait until a key is pressed
 cv2.waitKey(0)
