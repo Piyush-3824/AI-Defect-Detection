@@ -99,9 +99,51 @@ An Industrial AI project using **Computer Vision**, **Deep Learning**, and **YOL
 
 ---
 
+## 🟢 Lesson 5 - Image Transformations
+
+### Translation
+
+- Translation Matrix
+- Translation along X & Y Axis
+- Border Modes & Border Colors
+- Image Translation using `cv2.warpAffine()`
+
+### Rotation
+
+- Rotation about Image Center
+- Rotation Matrix
+- Clockwise & Anti-Clockwise Rotation
+- Scaling During Rotation
+- Black Border Regions
+
+### Scaling
+
+- Image Resizing
+- Scaling Factors (`fx`, `fy`)
+- Upscaling & Downscaling
+- Importance of Image Resizing in AI Models
+
+### Affine Transformation
+
+- Understanding Affine Transformations
+- Source & Destination Points
+- Affine Transformation Matrix
+- `cv2.getAffineTransform()`
+- `cv2.warpAffine()`
+
+### Perspective Transformation
+
+- Camera Perspective Correction
+- Four Point Mapping
+- Perspective Transformation Matrix
+- `cv2.getPerspectiveTransform()`
+- `cv2.warpPerspective()`
+
+---
+
 # 🔄 Currently Learning
 
-- Image Transformations
+- Histograms & Image Enhancement
 
 ---
 
@@ -109,11 +151,10 @@ An Industrial AI project using **Computer Vision**, **Deep Learning**, and **YOL
 
 ## OpenCV
 
-- Image Transformations
-- Affine Transformations
-- Perspective Transformations
 - Histograms
 - Histogram Equalization
+- CLAHE (Contrast Limited Adaptive Histogram Equalization)
+- Gamma Correction
 - Color Segmentation
 - Feature Detection
 - Video Processing
@@ -146,7 +187,15 @@ Build a complete **Industrial AI Defect Detection System** capable of detecting 
 - FastAPI
 - Modern Frontend Technologies
 
-The final system will detect manufacturing defects such as scratches, dents, cracks, paint defects, and other surface anomalies from car images.
+The final system will detect manufacturing defects such as:
+
+- Scratches
+- Dents
+- Cracks
+- Paint Defects
+- Surface Anomalies
+
+from car images.
 
 ---
 
@@ -162,7 +211,8 @@ AI_DEFECT_DETECTION/
 │   ├── lesson1.py
 │   ├── lesson2.py
 │   ├── lesson3.py
-│   └── lesson4.py
+│   ├── lesson4.py
+│   └── lesson5.py
 │
 ├── README.md
 ├── Working.docx
@@ -176,31 +226,68 @@ AI_DEFECT_DETECTION/
 
 ### Current Stage
 
-✅ OpenCV Fundamentals (Lessons 1–4 Completed)
+✅ OpenCV Fundamentals (Lessons 1–5 Completed)
 
 ### Next Milestone
 
-➡️ Image Transformations (Lesson 5)
+➡️ Histograms & Image Enhancement (Lesson 6)
 
 ---
 
-## 📈 Learning Roadmap
+# 📈 Learning Roadmap
 
 - ✅ Lesson 1 - Reading Images
 - ✅ Lesson 2 - Pixels, Cropping & Resizing
 - ✅ Lesson 3 - Color Spaces
 - ✅ Lesson 4 - Image Processing
-- ⬜ Lesson 5 - Image Transformations
-- ⬜ Lesson 6 - Histograms & Color Segmentation
+- ✅ Lesson 5 - Image Transformations
+- ⬜ Lesson 6 - Histograms & Image Enhancement
 - ⬜ Lesson 7 - Feature Detection
 - ⬜ Lesson 8 - Video Processing
 - ⬜ Mini Computer Vision Projects
-- ⬜ PyTorch
-- ⬜ YOLO
-- ⬜ FastAPI
-- ⬜ Frontend
+- ⬜ PyTorch Fundamentals
+- ⬜ CNN (Convolutional Neural Networks)
+- ⬜ YOLO Object Detection
+- ⬜ Model Training & Evaluation
+- ⬜ FastAPI Backend
+- ⬜ Frontend Dashboard
 - ⬜ Final Industrial AI Defect Detection System
 
 ---
 
-### ⭐ This repository documents my journey of building a complete Industrial AI Defect Detection System from scratch while learning the concepts behind every step instead of simply using pre-built models.
+# 🖼️ Sample Outputs
+
+Sample outputs from every lesson will be added as the project progresses.
+
+---
+
+# 🎯 Skills Learned
+
+- Image Reading & Display
+- Pixel Manipulation
+- Image Cropping & Resizing
+- Color Space Conversion
+- Image Filtering
+- Thresholding
+- Edge Detection
+- Contour Detection
+- Morphological Operations
+- Image Transformations
+- Computer Vision Fundamentals
+- Industrial AI Pre-processing
+
+---
+
+# 📌 Future Scope
+
+- Real-time Car Defect Detection
+- Multi-Camera Inspection System
+- Scratch & Dent Classification
+- Defect Severity Analysis
+- Production Monitoring Dashboard
+- Cloud Deployment
+- Industrial Automation Integration
+
+---
+
+### ⭐ This repository documents my journey of building a complete Industrial AI Defect Detection System from scratch while understanding the mathematics, algorithms, and concepts behind every step instead of simply using pre-trained models.
