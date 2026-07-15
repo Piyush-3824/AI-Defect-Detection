@@ -141,9 +141,45 @@ An Industrial AI project using **Computer Vision**, **Deep Learning**, and **YOL
 
 ---
 
+## 🟢 Lesson 6 - Histograms & Image Enhancement
+
+### Histograms
+
+- Understanding Image Histograms
+- Pixel Intensity Distribution
+- Histogram Calculation using `cv2.calcHist()`
+- Plotting Histograms using Matplotlib
+- Reading Histogram Graphs
+- Low Contrast vs High Contrast Images
+
+### Histogram Equalization
+
+- Image Contrast Enhancement
+- Histogram Equalization using `cv2.equalizeHist()`
+- Advantages & Limitations
+
+### CLAHE (Contrast Limited Adaptive Histogram Equalization)
+
+- Local Contrast Enhancement
+- Contrast Limiting
+- Tile Grid Processing
+- `cv2.createCLAHE()`
+- `clipLimit`
+- `tileGridSize`
+- `clahe.apply()`
+
+### Histogram Comparison
+
+- Comparing Original Histogram
+- Comparing Histogram Equalization
+- Comparing CLAHE
+- Visual Analysis of Contrast Enhancement
+
+---
+
 # 🔄 Currently Learning
 
-- Histograms & Image Enhancement
+- Color Segmentation
 
 ---
 
@@ -151,10 +187,6 @@ An Industrial AI project using **Computer Vision**, **Deep Learning**, and **YOL
 
 ## OpenCV
 
-- Histograms
-- Histogram Equalization
-- CLAHE (Contrast Limited Adaptive Histogram Equalization)
-- Gamma Correction
 - Color Segmentation
 - Feature Detection
 - Video Processing
@@ -212,7 +244,9 @@ AI_DEFECT_DETECTION/
 │   ├── lesson2.py
 │   ├── lesson3.py
 │   ├── lesson4.py
-│   └── lesson5.py
+│   ├── lesson5.py
+    ├── lesson6.py
+
 │
 ├── README.md
 ├── Working.docx
@@ -226,11 +260,11 @@ AI_DEFECT_DETECTION/
 
 ### Current Stage
 
-✅ OpenCV Fundamentals (Lessons 1–5 Completed)
+✅ OpenCV Fundamentals (Lessons 1–6 Completed)
 
 ### Next Milestone
 
-➡️ Histograms & Image Enhancement (Lesson 6)
+➡️ Color Segmentation (Lesson 7)
 
 ---
 
@@ -241,9 +275,10 @@ AI_DEFECT_DETECTION/
 - ✅ Lesson 3 - Color Spaces
 - ✅ Lesson 4 - Image Processing
 - ✅ Lesson 5 - Image Transformations
-- ⬜ Lesson 6 - Histograms & Image Enhancement
-- ⬜ Lesson 7 - Feature Detection
-- ⬜ Lesson 8 - Video Processing
+- ✅ Lesson 6 - Histograms & Image Enhancement
+- ⬜ Lesson 7 - Color Segmentation
+- ⬜ Lesson 8 - Feature Detection
+- ⬜ Lesson 9 - Video Processing
 - ⬜ Mini Computer Vision Projects
 - ⬜ PyTorch Fundamentals
 - ⬜ CNN (Convolutional Neural Networks)
@@ -263,6 +298,8 @@ Sample outputs from every lesson will be added as the project progresses.
 
 # 🎯 Skills Learned
 
+# 🎯 Skills Learned
+
 - Image Reading & Display
 - Pixel Manipulation
 - Image Cropping & Resizing
@@ -273,6 +310,10 @@ Sample outputs from every lesson will be added as the project progresses.
 - Contour Detection
 - Morphological Operations
 - Image Transformations
+- Histogram Analysis
+- Histogram Equalization
+- CLAHE (Adaptive Histogram Equalization)
+- Image Contrast Enhancement
 - Computer Vision Fundamentals
 - Industrial AI Pre-processing
 
@@ -290,4 +331,4 @@ Sample outputs from every lesson will be added as the project progresses.
 
 ---
 
-### ⭐ This repository documents my journey of building a complete Industrial AI Defect Detection System from scratch while understanding the mathematics, algorithms, and concepts behind every step instead of simply using pre-trained models.
+### ⭐ This repository documents my journey of building a complete Industrial AI Defect Detection System from scratch. Every lesson focuses on understanding the underlying mathematics, algorithms, and implementation details instead of simply using pre-trained models. The goal is to develop strong Computer Vision and Deep Learning fundamentals before building a production-ready Industrial AI system.
