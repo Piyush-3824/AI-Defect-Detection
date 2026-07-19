@@ -57,7 +57,7 @@ An Industrial AI project using **Computer Vision**, **Deep Learning**, and **YOL
 - Color Space Conversion using `cv2.cvtColor()`
 - BGR vs RGB
 - BGR vs HSV
-- Displaying images using Matplotlib
+- Displaying Images using Matplotlib
 - Splitting Color Channels (`cv2.split()`)
 - Merging Color Channels (`cv2.merge()`)
 
@@ -177,9 +177,33 @@ An Industrial AI project using **Computer Vision**, **Deep Learning**, and **YOL
 
 ---
 
+## 🟢 Lesson 7 - Color Segmentation
+
+### HSV Color Space
+
+- Understanding HSV Color Space
+- BGR to HSV Conversion
+- Hue, Saturation and Value
+
+### Color Segmentation
+
+- Defining HSV Color Ranges
+- Binary Mask Creation using `cv2.inRange()`
+- Extracting Required Objects using `cv2.bitwise_and()`
+
+### HSV Trackbars
+
+- Creating Interactive Trackbars
+- Finding Optimal HSV Ranges
+- Reading Trackbar Values
+- Real-Time Color Detection
+- HSV Calibration Tool
+
+---
+
 # 🔄 Currently Learning
 
-- Color Segmentation
+- Feature Detection
 
 ---
 
@@ -187,7 +211,6 @@ An Industrial AI project using **Computer Vision**, **Deep Learning**, and **YOL
 
 ## OpenCV
 
-- Color Segmentation
 - Feature Detection
 - Video Processing
 - Mini Computer Vision Projects
@@ -237,7 +260,9 @@ from car images.
 AI_DEFECT_DETECTION/
 │
 ├── images/
-│   └── image.jpg
+│   ├── image.jpg
+│   ├── sample.jpg
+│   └── luffy.jpg
 │
 ├── lessons/
 │   ├── lesson1.py
@@ -245,8 +270,8 @@ AI_DEFECT_DETECTION/
 │   ├── lesson3.py
 │   ├── lesson4.py
 │   ├── lesson5.py
-    ├── lesson6.py
-
+│   ├── lesson6.py
+│   └── lesson7.py
 │
 ├── README.md
 ├── Working.docx
@@ -260,11 +285,11 @@ AI_DEFECT_DETECTION/
 
 ### Current Stage
 
-✅ OpenCV Fundamentals (Lessons 1–6 Completed)
+✅ OpenCV Fundamentals (Lessons 1–7 Completed)
 
 ### Next Milestone
 
-➡️ Color Segmentation (Lesson 7)
+➡️ Feature Detection (Lesson 8)
 
 ---
 
@@ -276,7 +301,7 @@ AI_DEFECT_DETECTION/
 - ✅ Lesson 4 - Image Processing
 - ✅ Lesson 5 - Image Transformations
 - ✅ Lesson 6 - Histograms & Image Enhancement
-- ⬜ Lesson 7 - Color Segmentation
+- ✅ Lesson 7 - Color Segmentation
 - ⬜ Lesson 8 - Feature Detection
 - ⬜ Lesson 9 - Video Processing
 - ⬜ Mini Computer Vision Projects
@@ -298,8 +323,6 @@ Sample outputs from every lesson will be added as the project progresses.
 
 # 🎯 Skills Learned
 
-# 🎯 Skills Learned
-
 - Image Reading & Display
 - Pixel Manipulation
 - Image Cropping & Resizing
@@ -314,6 +337,9 @@ Sample outputs from every lesson will be added as the project progresses.
 - Histogram Equalization
 - CLAHE (Adaptive Histogram Equalization)
 - Image Contrast Enhancement
+- HSV Color Segmentation
+- Binary Mask Creation
+- Interactive HSV Calibration using Trackbars
 - Computer Vision Fundamentals
 - Industrial AI Pre-processing
 
@@ -331,4 +357,4 @@ Sample outputs from every lesson will be added as the project progresses.
 
 ---
 
-### ⭐ This repository documents my journey of building a complete Industrial AI Defect Detection System from scratch. Every lesson focuses on understanding the underlying mathematics, algorithms, and implementation details instead of simply using pre-trained models. The goal is to develop strong Computer Vision and Deep Learning fundamentals before building a production-ready Industrial AI system.
+### ⭐ This repository documents my journey of building a complete **Industrial AI Defect Detection System** from scratch. Every lesson focuses on understanding the mathematics, algorithms, and implementation behind each Computer Vision technique instead of simply using pre-trained models. The goal is to build strong Computer Vision fundamentals before progressing to Deep Learning, YOLO, and a production-ready Industrial AI inspection system.
