@@ -250,10 +250,10 @@ while True:
     )
 
     # Display Results
-    cv2.imshow(
-        "Original Image",
-        image
-    )
+    # cv2.imshow(
+    #     "Original Image",
+    #     image
+    # )
     cv2.imshow(
         "Trackbar Mask",
         trackbar_mask

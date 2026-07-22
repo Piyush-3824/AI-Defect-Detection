@@ -97,7 +97,7 @@ image = cv2.imread("../images/image.jpg")
 #
 # Smaller d -> Faster, Less Smoothing
 # Larger d  -> More Smoothing
-#
+
 # 75
 # Sigma Color
 # Controls colour similarity.
@@ -141,8 +141,8 @@ ret, binary = cv2.threshold(
 # 255 -> Maximum Pixel Value
 
 # Display Images
-# cv2.imshow("Grayscale", gray)
-# cv2.imshow("Binary", binary)
+cv2.imshow("Grayscale", gray)
+cv2.imshow("Binary", binary)
 
 
 # ==========================================
@@ -151,18 +151,18 @@ ret, binary = cv2.threshold(
 
 # Detect Edges
 
-# edges = cv2.Canny(gray, 100, 200)
+edges = cv2.Canny(gray, 100, 200)
 
 # Parameters:
-#
+
 # 100 -> Lower Threshold
 # 200 -> Upper Threshold
-#
+
 # Smaller Thresholds -> More Edges
 # Larger Thresholds  -> Fewer Edges
 
 # Display Image
-# cv2.imshow("Canny Edge Detection", edges)
+cv2.imshow("Canny Edge Detection", edges)
 
 
 # Processing Pipeline
@@ -188,11 +188,11 @@ ret, binary = cv2.threshold(
 
 # Find Contours
 
-# contours, hierarchy = cv2.findContours(
-#     binary,
-#     cv2.RETR_EXTERNAL,
-#     cv2.CHAIN_APPROX_SIMPLE
-# )
+contours, hierarchy = cv2.findContours(
+    binary,
+    cv2.RETR_EXTERNAL,
+    cv2.CHAIN_APPROX_SIMPLE
+)
 
 # Contour Retrieval Mode
 #
@@ -204,20 +204,20 @@ ret, binary = cv2.threshold(
 
 # Create Copy of Original Image
 
-# contour_image = image.copy()
+contour_image = image.copy()
 
 # Print Number of Contours
 # print(len(contours))
 
 # Draw Contours
 
-# cv2.drawContours(
-#     contour_image,
-#     contours,
-#     -1,
-#     (0, 255, 0),
-#     2
-# )
+cv2.drawContours(
+    contour_image,
+    contours,
+    -1,
+    (0, 255, 0),
+    2
+)
 
 # Parameters:
 #
@@ -228,7 +228,7 @@ ret, binary = cv2.threshold(
 # 2             -> Thickness
 
 # Display Image
-# cv2.imshow("Contours", contour_image)
+cv2.imshow("Contours", contour_image)
 
 
 # ==========================================

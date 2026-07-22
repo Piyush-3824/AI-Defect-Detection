@@ -201,9 +201,39 @@ An Industrial AI project using **Computer Vision**, **Deep Learning**, and **YOL
 
 ---
 
+## 🟢 Lesson 8 - Feature Detection
+
+### Understanding Image Features
+
+- What are Image Features?
+- Importance of Feature Detection
+- Edge, Corner and Blob Features
+
+### Harris Corner Detection
+
+- Harris Corner Detection Algorithm
+- Corner Response Matrix
+- Harris Parameters
+- `cv2.cornerHarris()`
+- Harris Thresholding
+- Corner Strength
+- `cv2.dilate()`
+
+### Shi-Tomasi Corner Detection
+
+- Improved Corner Detection
+- `cv2.goodFeaturesToTrack()`
+- Maximum Corners
+- Quality Level
+- Minimum Distance
+- Corner Coordinates
+- Drawing Corners using `cv2.circle()`
+
+---
+
 # 🔄 Currently Learning
 
-- Feature Detection
+- Feature Matching (FAST & ORB)
 
 ---
 
@@ -211,7 +241,7 @@ An Industrial AI project using **Computer Vision**, **Deep Learning**, and **YOL
 
 ## OpenCV
 
-- Feature Detection
+- Feature Matching (FAST & ORB)
 - Video Processing
 - Mini Computer Vision Projects
 
@@ -272,6 +302,7 @@ AI_DEFECT_DETECTION/
 │   ├── lesson5.py
 │   ├── lesson6.py
 │   └── lesson7.py
+│   └── lesson8.py
 │
 ├── README.md
 ├── Working.docx
@@ -285,11 +316,11 @@ AI_DEFECT_DETECTION/
 
 ### Current Stage
 
-✅ OpenCV Fundamentals (Lessons 1–7 Completed)
+✅ OpenCV Fundamentals (Lessons 1–8 Completed)
 
 ### Next Milestone
 
-➡️ Feature Detection (Lesson 8)
+➡️ Feature Matching (Lesson 9)
 
 ---
 
@@ -302,8 +333,9 @@ AI_DEFECT_DETECTION/
 - ✅ Lesson 5 - Image Transformations
 - ✅ Lesson 6 - Histograms & Image Enhancement
 - ✅ Lesson 7 - Color Segmentation
-- ⬜ Lesson 8 - Feature Detection
-- ⬜ Lesson 9 - Video Processing
+- ✅ Lesson 8 - Feature Detection
+- ⬜ Lesson 9 - Feature Matching
+- ⬜ Lesson 10 - Video Processing
 - ⬜ Mini Computer Vision Projects
 - ⬜ PyTorch Fundamentals
 - ⬜ CNN (Convolutional Neural Networks)
@@ -340,6 +372,11 @@ Sample outputs from every lesson will be added as the project progresses.
 - HSV Color Segmentation
 - Binary Mask Creation
 - Interactive HSV Calibration using Trackbars
+- Image Feature Detection
+- Harris Corner Detection
+- Shi-Tomasi Corner Detection
+- Corner Detection Algorithms
+- Feature Extraction Fundamentals
 - Computer Vision Fundamentals
 - Industrial AI Pre-processing
 
